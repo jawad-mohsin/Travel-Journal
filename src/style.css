@@ -1,0 +1,141 @@
+.App {
+  margin: 0 auto;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  background-color: #1a1b21;
+  color: white;
+  width: 550px;
+  height: 703px;
+  border-radius: 8.95px;
+  background-color: #ffffff;
+  box-shadow: 0px 3.9825618267059326px 7.456404209136963px 0px #0000001a;
+}
+
+.navbar {
+  width: 550px;
+  height: 55px;
+  flex-shrink: 0;
+  background: #f55a5a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  margin-bottom: 8%;
+}
+
+.nav-heading {
+  margin-left: 12px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.card-img {
+  width: 125px;
+  height: 168px;
+  margin-left: 40px;
+  border-radius: 5px;
+}
+
+.card-location-icon {
+  width: 7px;
+  height: 9.55px;
+  margin-left: 19px;
+  margin-top: 2px;
+}
+
+.card-country {
+  width: 40px;
+  height: 10px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  color: #2b283a;
+  margin-left: 4px;
+}
+
+.card-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-location-link {
+  width: 106px;
+  height: 13px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #918e9b;
+  margin-left: 50px;
+  margin-top: 4px;
+}
+
+.card-placeName {
+  width: 326px;
+  height: 40px;
+  margin-left: 19px;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b283a;
+  margin-top: 4px;
+  margin-bottom: 0%;
+}
+
+.card-date {
+  width: 319px;
+  height: 11px;
+  margin-left: 19px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b283a;
+  margin-bottom: 0%;
+}
+
+.card-desciption {
+  width: 326px;
+  height: 45px;
+  margin-left: 19px;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2b283a;
+}
+
+.card-line-break {
+  margin-top: 18px;
+  width: 478px;
+  height: 1px;
+  border: 1px;
+  color: #f5f5f5;
+  background-color: #f5f5f5;
+  margin-bottom: 18px;
+}
